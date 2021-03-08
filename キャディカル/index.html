@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="模写コーディング" name="description">
+  <link rel="icon" href="img/タツノオトシゴのアイコン素材のコピー.png">
+  <title>模写コーディング</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/pc.css" media="screen and (min-width: 901px)">
+  <link rel="stylesheet" href="css/sp.css" media="screen and (max-width: 900px)">
+
+</head>
+
+<body>
+
+   <!-- header -->
+  <header>
+
+    <div class="header__top">
+
+      <div class="header__top-title">
+        <a href="#"><img src="img/header__top-title1.svg" alt=""></a>
+      </div>
+      <div class="header__top-contact">
+        <img src="img/header__top-contact.png" alt="">
+        <div class="header__top-contact-date">
+          <p>平日9:00~19:00 <br>土9:00~18:00</p>
+        </div>
+      </div>
+    </div>
+
+    <nav>
+      <ul class="header__mid">
+        <div class="container">
+          <div class="row">
+            <li class="col-4"><a href="#"><i class="fas fa-home"></i>ホーム</a></li>
+            <li class="col-4"><a href="#"><i class="fas fa-search"></i>求人検索</a></li>
+            <li class="col-4"><a href="#"><i class="far fa-comments"></i>無料相談</a></li>
+          </div>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="header__bottom"></div>
+  </header>
+
+  <main>
+
+    <!-- main__werap -->
+    <div class="main__wrap">
+      <div class="main__wrap-back">
+        <img src="img/main__wrap-back.png" alt="">
+      </div>
+      <div class="main__wrap-button">
+        <a href="#">
+          <img src="img/main__wrap.png" alt="">
+        </a>
+      </div>
+    </div>
+
+
+    
+    <!-- desc -->
+    <div class="desc">
+      <div class="desc__title">
+        <h2>薬剤師の求人を探す</h2>
+      </div>
+      <div class="desc__line"></div>
+    </div>
+
+
+    <!-- serch -->
+    <form action="#" method="POST">
+      <div class="search">
+        <div class="search__wrap">
+
+          <div class="search__first">
+
+            <div class="search__first-img">
+              <img src="img/search__first-img.svg" alt="">
+              <p>エリア</p>
+            </div>
+            <ul>
+              <li class="search__select--wrap">
+                <select name="prefecture" id="prefecture">
+                  <option selected>都道府県を選択</option>
+                  <option value="北海道">北海道</option>
+                  <option value="沖縄">沖縄</option>
+                </select>
+              </li>
+              <li class="search__select--wrap">
+                <select name="city" id="city">
+                  <option selected>市区町村も選ぶ</option>
+                  <option value="旭川市">旭川市</option>
+                </select>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="search__line"></div>
+
+          <div class="search__second">
+
+            <div class="search__second-img">
+              <img src="img/search__second-img.svg" alt="">
+              <p>勤務先</p>
+            </div>
+            <ul>
+              <li class="search__second-li">
+                <input type="checkbox" name="type1" value="調剤薬局" id="pharmacy">
+                <label for="pharmacy" class="search__second-lb">
+                  <span>調剤薬局</span>
+                </label>
+              </li>
+              <li class="search__second-li">
+                <input type="checkbox" name="type1" value="ドラッグストア" id="dragstore">
+                <label for="dragstore" class="search__second-lb">
+                  <span>ドラッグストア</span>
+                </label>
+              </li>
+              <li class="search__second-li">
+                <input type="checkbox" name="type1" value="その他" id="other">
+                <label for="other" class="search__second-lb">
+                  <span>その他</span>
+                </label>
+              </li>
+            </ul>
+
+          </div>
+
+          <div class="search__button">
+            <img src="img/search__button.svg" alt="">
+          </div>
+          
+        </div>
+      </div>
+    </form>
+
+
+    <!-- new -->
+    <div class="new">
+      <div class="new__title">
+        <h2>新着求人</h2>
+      </div>
+      <div class="new__line"></div>
+
+      <div class="new__content">
+
+        <a href="#"><div class="new__content-1">
+          <div class="new__content-1--date">
+            <p>2019.12.26</p>
+          </div>
+          <div class="new__content-1--name">
+            <p>【秋田県横手市】うれしい土日祝休みで、プライベートも充実できます◎</p>
+          </div>
+        </div></a>
+
+        <div class="new__content-line"></div>
+
+        <a href="#"><div class="new__content-2">
+          <div class="new__content-2--date">
+            <p>2019.12.26</p>
+          </div>
+          <div class="new__content-2--name">
+            <p>【秋田県横手市】うれしい土日祝休みで、プライベートも充実できます◎</p>
+          </div>
+        </div></a>
+
+        <div class="new__content-line"></div>
+
+        <a href="#"><div class="new__content-3">
+          <div class="new__content-3--date">
+            <p>2019.12.26</p>
+          </div>
+          <div class="new__content-3--name">
+            <p>【秋田県横手市】うれしい土日祝休みで、プライベートも充実できます◎</p>
+          </div>
+        </div></a>
+
+        <div class="new__content-line"></div>
+
+        <a href="#"><div class="new__content-4">
+          <div class="new__content-4--date">
+            <p>2019.12.26</p>
+          </div>
+          <div class="new__content-4--name">
+            <p>【秋田県横手市】うれしい土日祝休みで、プライベートも充実できます◎</p>
+          </div>
+        </div></a>
+
+        <div class="new__content-line"></div>
+
+        <a href="#"><div class="new__content-5">
+          <div class="new__content-5--date">
+            <p>2019.12.26</p>
+          </div>
+          <div class="new__content-5--name">
+            <p>【秋田県横手市】うれしい土日祝休みで、プライベートも充実できます◎</p>
+          </div>
+        </div></a>
+
+      </div>
+    </div>
+
+    <div class="about">
+    
+      <div class="about__title">
+        <h2>キャディカル薬剤師について</h2>
+      </div>
+      <div class="about__line"></div>
+    
+      <div class="about__content">
+    
+        <div class="about__txt">
+          <div class="about__txt-1">
+            <p>
+              キャディカル薬剤師は、薬剤師に特化したキャリア支援および求人紹介サービスです。その特徴は、大手ドラッグストアグループ（東証一部上場）の人事を経験している薬剤師の有資格者が、キャリアコンサルタントとしてあなたのキャリアをサポートする点にあります。<br><br>
+              薬剤師だからこそ分かる、薬剤師の悩みや不安・葛藤があるはずです。薬剤師なら薬剤師が人材サービスの対応を行なうことで、同じ思いに共感することができ、より精度の高いキャリア支援が実現できると私たちは考えています。ぜひ、些細なことでもお気軽にご相談ください。
+            </p>
+          </div>
+          <div class="about__txt-2">
+            <p>キャディカル薬剤師<br>キャリアコンサルタント一同</p>
+          </div>
+        </div>
+    
+        <div class="about__img">
+          <div class="about__img-1">
+            <img src="img/about__img-1.svg" alt="">
+          </div>
+          <div class="about__img-2">
+            <img src="img/about__img-2.png" alt="">
+          </div>
+        </div>
+    
+      </div>
+    </div>
+      
+
+    <!-- support -->
+    <div class="support">
+       <img src="img/main__wrap.png" alt="">
+    </div>
+
+  </main>
+  
+  <footer>
+    <div class="footer__main">
+      <p class="footer__name">株式会社 Medical Career Support （許可番号：13-ユ-310318</p>
+      <p class="footer__concept"><a href="#">会社概要</a></p>
+      <p class="footer__contact"><a href="#">採用ご担当者様へ</a></p>
+    </div>
+  
+    <div class="footer__copyright">
+      <p>&copy; All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
